@@ -32,7 +32,7 @@ Vagrant.configure("2") do |config|
     touch /.ncp-image
 
     # install
-    git clone -b "$BRANCH" https://github.com/nextcloud/nextcloudpi.git /tmp/nextcloudpi
+    git clone -b "$BRANCH" https://github.com/BstAA/ncpbst.git /tmp/nextcloudpi
     cd /tmp/nextcloudpi
 
     # uncomment to install devel

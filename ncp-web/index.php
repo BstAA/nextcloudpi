@@ -134,7 +134,7 @@ HTML;
            <h1 class="hidden-visually">NextCloudPi</h1>
         </div>
       </a>
-      <a id=versionlink target="_blank" href="https://github.com/nextcloud/nextcloudpi/blob/master/changelog.md">
+      <a id=versionlink target="_blank" href="https://github.com/BstAA/ncpbst/blob/master/changelog.md">
         <?php
           $version  = "v0.0.0";
           $ver_file = "/usr/local/etc/ncp-version";
@@ -197,7 +197,7 @@ HTML;
           </div>
         </div>
       </a>
-      <a href="https://github.com/nextcloud/nextcloudpi/wiki" target="_blank" tabindex="1"  title="<?php echo $l->__("NextCloudPi Wiki"); ?>">
+      <a href="https://github.com/BstAA/ncpbst/wiki" target="_blank" tabindex="1"  title="<?php echo $l->__("NextCloudPi Wiki"); ?>">
         <div id="nc-button">
             <div class="expand">
                 <div class="icon-nc-info"></div>

@@ -17,8 +17,8 @@ The first time you activate this app through 'nc-previews-auto', you properly wa
 	<namespace>PreviewGenerator</namespace>
 	<category>multimedia</category>
 	<website>https://nextcloudpi.com</website>
-    <bugs>https://github.com/nextcloud/nextcloudpi/issues</bugs>
-    <repository type="git">https://github.com/nextcloud/nextcloudpi</repository>
+    <bugs>https://github.com/BstAA/ncpbst/issues</bugs>
+    <repository type="git">https://github.com/BstAA/ncpbst</repository>
 	<types>
 		<filesystem/>
 	</types>

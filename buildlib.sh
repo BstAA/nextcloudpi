@@ -319,7 +319,7 @@ function create_torrent()
 function generate_changelog()
 {
   git log --graph --oneline --decorate \
-    --pretty=format:"[%<(13)%D](https://github.com/nextcloud/nextcloudpi/commit/%h) (%ad) %s" --date=short | \
+    --pretty=format:"[%<(13)%D](https://github.com/BstAA/ncpbst/commit/%h) (%ad) %s" --date=short | \
     grep 'tag: v' | \
     sed '/HEAD ->\|origin/s|\[.*\(tag: v[0-9]\+\.[0-9]\+\.[0-9]\+\).*\]|[\1]|' | \
     sed 's|* \[tag: |\n[|' > changelog.md
