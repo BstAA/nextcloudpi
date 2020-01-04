@@ -694,7 +694,7 @@ $(function()
       if( '[new]' == this.get( '.value' ) )
       {
         this.set( '.value', langold );
-        var url = 'https://github.com/BstAA/ncpbst/wiki/Add-a-new-language-to-ncp-web';
+        var url = 'https://github.com/BstAA/nextcloudpi/wiki/Add-a-new-language-to-ncp-web';
         if ( !window.open( url, '_blank' ) ) // try to open in a new tab first
           window.location.href = url;
         return;

@@ -77,7 +77,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
 
     # work around dhcpcd Raspbian bug
     # https://lb.raspberrypi.org/forums/viewtopic.php?t=230779
-    # https://github.com/BstAA/ncpbst/issues/938
+    # https://github.com/BstAA/nextcloudpi/issues/938
     apt-get update
     apt-get install -y --no-install-recommends haveged
     systemctl enable haveged.service
