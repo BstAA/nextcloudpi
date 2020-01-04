@@ -1,7 +1,5 @@
 #!/bin/bash
-#
-# ... KlausB
-#
+
 # NextCloudPi installation script
 #
 # Copyleft 2017 by Ignacio Nunez Hernanz <nacho _a_t_ ownyourbits _d_o_t_ com>
@@ -64,6 +62,7 @@ systemctl restart mysqld # TODO this shouldn't be necessary, but somehow it's ne
 install_app    ncp.sh
 run_app_unsafe bin/ncp/CONFIG/nc-init.sh
 bash /usr/local/bin/ncp-provisioning.sh
+bash /usr/local/bin/ncp-update
 
 popd
 
